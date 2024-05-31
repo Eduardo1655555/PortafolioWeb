@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
