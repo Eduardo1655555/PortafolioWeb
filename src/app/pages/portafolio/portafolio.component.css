@@ -12,12 +12,12 @@
     box-sizing: border-box;
 }
 
-p-card {
+.card {
     margin: 0; /* Reset margin to avoid extra space */
 }
 
 /* Additional styling for a nice appearance */
-p-card {
+.card {
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;

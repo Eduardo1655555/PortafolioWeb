@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-perfil',
@@ -9,4 +10,8 @@ import { Component } from '@angular/core';
 })
 export class PerfilComponent {
 
+  constructor (private titleService: Title){
+    this.titleService.setTitle('EFA - Perfil');
+  }
+  
 }

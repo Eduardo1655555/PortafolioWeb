@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { CardModule } from 'primeng/card';
 
 @Component({
   selector: 'app-portafolio',
   standalone: true,
-  imports: [],
+  imports: [CardModule],
   templateUrl: './portafolio.component.html',
-  styleUrl: './portafolio.component.css'
+  styleUrls: ['./portafolio.component.css']
 })
 export class PortafolioComponent {
 
