@@ -15,6 +15,9 @@ interface Contacto {
   namep:string;
   gmailp: string;
   phonep: string;
+  lugar: string;
+  lugarp: string;
+
 };
 
 

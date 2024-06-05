@@ -8,6 +8,9 @@ import { AccordionModule } from 'primeng/accordion';
 import { ButtonModule } from 'primeng/button';
 import { Accordion } from 'primeng/accordion';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { WeatherService } from './Services/weather.service';
+import { WeatherComponent } from './pages/weather/weather.component';
 
 @Component({
   selector: 'app-root',
@@ -18,8 +21,11 @@ import { BrowserModule } from '@angular/platform-browser';
     HeaderComponent,
     CardModule,
     AccordionModule,
+    HttpClientModule,
+    WeatherComponent,
     ButtonModule
   ],
+  providers:[WeatherService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
