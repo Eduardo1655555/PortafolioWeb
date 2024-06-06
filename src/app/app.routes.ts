@@ -5,6 +5,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { WeatherComponent } from './pages/weather/weather.component';
+
 export const routes: Routes = [
   {path: 'perfil',component: PerfilComponent},
   {path: 'portafolio',component: PortafolioComponent},
